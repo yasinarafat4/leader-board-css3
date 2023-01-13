@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leader Board</title>
-</head>
-<body>
-    
-</body>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/76943a5621.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header></header>
+    <!-- header end -->
+    <main>
+      <!-- top players -->
+      <section class="container">
+        <div class="top-players">
+          <h2 class="section-title">Top Players</h2>
+          <div class="players">
+            <!-- .player*6>img[src="resource-from-PH/images/players/player-$.png"]+h3{Top Player-$} -->
+            <div class="player">
+              <img src="resource-from-PH/images/players/player-1.png" alt="" />
+              <h3 class="player-name">Top Player-1</h3>
+            </div>
+            <div class="player">
+              <img src="resource-from-PH/images/players/player-2.png" alt="" />
+              <h3 class="player-name">Top Player-2</h3>
+            </div>
+            <div class="player">
+              <img src="resource-from-PH/images/players/player-3.png" alt="" />
+              <h3 class="player-name">Top Player-3</h3>
+            </div>
+            <div class="player">
+              <img src="resource-from-PH/images/players/player-4.png" alt="" />
+              <h3 class="player-name">Top Player-4</h3>
+            </div>
+            <div class="player">
+              <img src="resource-from-PH/images/players/player-5.png" alt="" />
+              <h3 class="player-name">Top Player-5</h3>
+            </div>
+            <div class="player">
+              <img src="resource-from-PH/images/players/player-6.png" alt="" />
+              <h3 class="player-name">Top Player-6</h3>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <!-- top blogs -->
+        <div class="top-blogs">
+          <h2 class="section-title">Top Blogs</h2>
+          <div class="blogs">
+            <article class="blog">
+              <div class="thumbnail">
+                <img src="resource-from-PH/images/blogs/blog-1.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h3 class="blog-title">
+                  13 of My Favorite <br />
+                  UI/UX Goodies
+                </h3>
+                <p class="blog-author">By <a href="">Danny Sapio</a></p>
+              </div>
+            </article>
+            <article class="blog">
+              <div class="thumbnail">
+                <img src="resource-from-PH/images/blogs/blog-2.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h3 class="blog-title">
+                  UI cheat sheet: <br />
+                  list vs grids
+                </h3>
+                <p class="blog-author">By <a href="">Tess Gadd</a></p>
+              </div>
+            </article>
+            <article class="blog">
+              <div class="thumbnail">
+                <img src="resource-from-PH/images/blogs/blog-3.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h3 class="blog-title">
+                  7 typography tips <br />
+                  for interface design
+                </h3>
+                <p class="blog-author">By <a href="">Jeremiah Lam</a></p>
+              </div>
+            </article>
+            <article class="blog">
+              <div class="thumbnail">
+                <img src="resource-from-PH/images/blogs/blog-4.png" alt="" />
+              </div>
+              <div class="blog-info">
+                <h3 class="blog-title">
+                  Your logo is <br />
+                  copied
+                </h3>
+                <p class="blog-author">By <a href="">Ferdinand Vogler</a></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- latest courses -->
+      <section class="container">
+        <h2 class="section-title">Latest Courses</h2>
+        <div class="courses">
+          <div class="course">
+            <div class="course-banner">
+              <img src="resource-from-PH/images/courses/course-1.png" alt="" />
+            </div>
+            <div class="course-detail">
+              <h3 class="course-title">
+                React - The Complete <br />
+                Guide 2020
+              </h3>
+              <p class="course-instractor">Reed Krakoff.</p>
+              <div class="course-info">
+                <div>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star empty"></i>
+                </div>
+                <p>4.5</p>
+                <div class="course-duration">
+                  <i class="fa-regular fa-clock"></i>
+                  01:30 hr
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
